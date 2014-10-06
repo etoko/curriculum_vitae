@@ -1,0 +1,229 @@
+% Emmanuel Toko - Curriculum Vitae
+%
+
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{tabulary}
+\usepackage{booktabs, tabularx}
+\usepackage{titlesec} % Used to customize the \section command
+\usepackage{graphicx}
+
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule] % Section formatting
+
+% Fonts
+%\usepackage[T1]{fontenc}
+%\usepackage[urw-garamond]{mathdesign}
+\usepackage{times}
+
+
+% Set your name here
+\def\name{Toko Emmanuel}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {Systems Administration, Communications Engineering, Performance Evaluation,
+    Software Engineering, Data Analysis, GIS Analysis},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}  
+
+\geometry{
+  body={6.5in, 9.0in},
+  left=1.0in,
+  top=1.0in
+}
+
+\pagestyle{empty}
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+\setlist[enumerate]{itemsep=0.25em}
+
+\begin{document}
+\centerline{\Huge Curriculum Vitae \\}
+\bigskip
+\bigskip
+\bigskip
+
+{\LARGE \name}
+
+\bigskip
+
+\begin{minipage}[t]{0.495\textwidth}
+ \begin{tabular}{l}
+   Millennium Villages Project, Ruhiira \\
+  P.O.Box 448, \\
+  Plot 08 Muti Drive \\
+  Mbarara, Uganda
+  \end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.495\textwidth}
+  \begin{tabulary}{\linewidth}{LL}
+  \textit{Phone:} & +256755 947706, +256776967777  \\
+  \textit{Email:} & \href{mailto:emmanuel.toko@gmail.com}{emmanuel.toko@gmail.com} \\
+  \textit{Website:} & \href{http://emmanueltoko.blogspot.com/}{http://emmanueltoko.blogspot.com/} \\
+  \textit{Linkedin:} & \href{http://ug.linkedin.com/in/emmanueltoko}{http://ug.linkedin.com/in/emmanueltoko}\\
+  \textit{Github} & \href{https://github.com/etoko}{https://github.com/etoko}\\
+  \end{tabulary}
+\end{minipage}
+
+\section*{Work Experience}
+ \newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+\begin{tabularx}{\textwidth}{ X R }
+  \textbf{eHealth Specialist} & Mbarara-Isingiro, Uganda\\
+  \emph{Millennium Villages Project Ruhiira}, & 2010 - Present\\
+\end{tabularx}
+\begin{itemize}
+  \item Hardware maintenance and software support to office, schools and community radio station. Troubleshooting and resolving technical issues.
+  \item System administration of health information systems: configuration of virtual machine instances, writing shell scripts (cron and anacron), automated data backup and recovery, privilege assignment etc, troubleshooting system problems.
+  \item Training of Community Health Workers (CHWs) in the use of health information systems: initial training and the roll-out of the systems, refresher trainings and selected trainings on new modules added to the health information systems.
+  \item System administration of SharedSolar computer systems: initial installation of ssmeter service on new sheeva-plug/dream-plug computers (ARM Linux), ensure proper running of ssmeter script (python-twisted), ensure ssmeter logs are written to persistent memory, verify SharedSolar customers are billed correctly by the system, support Energy Technician wherever possible, ensure vendor tables are operational.
+  \item Maintenance repairs of smart phones (smartphones) used by Community Health Workers (both software (Android OS) and hardware).
+  \item Support organisational Wide Area Network: installation and maintenance of long-range Wireless mesh network (spanning more than 50 km) to interconnect schools, ICT community centres and health centres. Network runs Ubiquiti and Cisco routers (Linux and Cisco IOS operating systems respectively).
+  \item Data analysis of health information systems data i.e. OpenMRS (health centre - based), previously ChildCount+, and subsequently CommCare ( latter two are household - based) to create ad hoc and periodic reports.
+\item Use of geospatial hardware and software tools to digitize and georeference information
+\item Work closely with end users to identify GIS requirements, technical issues and training needs; analyze current business processes and recommend best practice solutions; construct information technology definitions based on identified needs
+\item Technical guidance to procurement department in system specification for procurement.
+\item Coordinate and facilitate in training of community members in ICT skills. This includes formulating training modules and award of certificates to successful trainees.
+
+\end{itemize}
+
+\begin{tabularx}{\textwidth}{ X R }
+  \textbf{Software Developer} & Kampala, Uganda\\
+  \emph{Isrone Technologies} & 2009\\
+\end{tabularx}
+  \begin{itemize}
+    \item Development of software for clients.
+\item Provided technical support to clients in troubleshooting issues with developed software.
+\item End user interaction and requirements specification of software. This included interacting with end-users and determining requirements that they would like included in the software.
+\item Systems Analysis and Design including establishment of requirements specification, design, implementation and maintenance schedules.
+\item Technical details of systems developed included;
+PostgreSQL database backend
+GlassFish application server
+Enterprise JavaBeans middleware
+Java Persistence API (JPA) persistence framework
+SUSE Enterprise Server Operating system
+  \end{itemize}
+
+\begin{tabularx}{\textwidth}{ X R }
+  \textbf{Software Developer} & Kampala, Uganda\\
+  \textit{Department of Innovation and Software Development} \\
+  \emph{College of Computing and Information Sciences, Makerere University} & 2008 - 2009\\
+\end{tabularx}
+  \begin{itemize}
+    \item Developed electronic voting system for the dean of students department. System was used for the election of Guild Representative Council (GRC) and SRC members for the different halls. System was used in Africa, Livingstone, University, Complex, Nsibirwa and Nkrumah halls. Details included an Enterprise JavaBeans (EJB) middleware, MySQL database, Java Persistence API (JPA) persistence layer on a GlassFish enterprise application server.
+\item Facilitated orientation training of students on the voting system by carrying out mock voting sessions at the respective student halls.
+\item Worked closely with the Dean of Students, Hall wardens and Guild Representative Council representatives in establishing the system requirements.
+\item Systems Administration of server running installed electronic voting system. System was running OpenSUSE operating system with a MySQL backend database. Application Server was GlassFish. Tasks included writing cron and anacron jobs to automate database backups, assignment of resource privileges, security of system by blocking access from IP addresses outside the Makerere University network, creating access privileges for the server.
+  \end{itemize}
+
+\begin{tabularx}{\textwidth}{ X R }
+  \textbf{Information System Developer and Trainer} & Kitgum, Uganda\\
+  \emph{International Medical Corps} & 2007\\
+\end{tabularx}
+  \begin{itemize}
+    \item Developed a health management information system to assist in the monitoring of the nutrition status of mothers and their infants.
+    \item Maintenance of Psychosocial nutrition management system developed and training staff in data entry into the system.
+    \item Facilitator at training in Psychosocial Nutrition team staff training in computer applications. This included training in Microsoft Office suite, setting pre-training test and post-training tests.
+
+  \end{itemize}
+
+\section*{Education}
+
+\begin{itemize}
+  \item MSc. Data Communications and Software Engineering\\
+    Makerere University, 2013 - 2015 (Expected)
+    \begin{itemize}
+    \item \emph{Relevant Course Work:} Computer Networks, Network Performance Evaluation, System and Network Security, Communication Systems.
+    \end{itemize}
+  \item Bachelors of Business Computing - \emph{Software Engineering and Corporate Database Management}\\ Makerere University, 2004 - 2007
+    \begin{itemize}
+    \item \emph{Relevant Course Work:} Programming Principles for Business, Strategic Management, System and Network Security.
+    \item \emph{Research:} Implementation of Inventory Management Systems for branch suppliers
+    \end{itemize}
+\end{itemize}
+
+\section*{Other Professional Training}
+  \begin{tabular}{lll}
+    Solar Energy & edx - Delftx University & January, 2015 \\
+    Principles of Electrical Circuits & edx Tshingua University & February, 2015 \\
+    Data Scientist's Toolkit & Coursera & August, 2014\\
+    Cisco Certified Network Professional (CCNP) & Makerere University & 2013 - 2014 \\
+    UN Basic Security in the Field & & 2012 \\
+    Certificate in Software Engineering & Makerere University & 2009 \\
+    Cisco Certified Network Associate (CCNA) & Makerere University & 2007 - 2008\\
+  \end{tabular}
+
+\section*{Fields of Research Interest}
+
+Digital Signal Processing, Communication Systems, Sustainability Management
+
+\section*{Research}
+
+\subsection*{Peer-Reviewed Publications}
+
+\begin{enumerate}
+\item Toko, Velez, Ogallo, Cole-Lewis, Pivovarov, Salmasian, Atuhairwe, Elhadad, Kanter (2013).
+  \href{http://jblevins.org/research/lnlls}{Factors Associated with HIV Prognosis in Rural Uganda: Sequence-
+Mining the Medical Record}.
+  \textit{Journal of Health Informatics in Africa}
+\end{enumerate}
+\subsection*{Work in Progress}
+  \begin{itemize}
+    \item Detection and Prevention of Wormhole Attacks in MANETs using Path Tracing Approach. \textit{Implementation using MATLAB}
+  \end{itemize}
+
+\section*{Professional Activities}
+\begin{itemize}
+\item Member, Cisco Network Academy, 2007--Present.
+\item Member, Sun Developer Network, 2008--Present.
+\end{itemize}
+\section*{Technical Skills}
+\begin{tabulary}{\linewidth}{L L}
+Languages: & \LaTeX, Python, Java, C, SQL, Bash.\\
+Systems Administration: & Linux, UNIX, Cisco IOS, Microsoft Windows\\
+Hardware: & Multimeter (DMM), Oscilloscope, Function Generator, advanced soldering\\
+GIS: & QGIS, ArcGIS \\
+Data Analysis: & R, Stata, CSPro, Spreadsheets (MS Excel, LibreOffice, OpenOffice \\
+Simulation: & NS2, MATLAB, GNU Octave, gEDA, Ni Multisim \\
+Databases: & MySQL, PostgreSQL, Microsoft SQL, SQLite \\
+Desktop Publishing: & GIMP, Inkscape, Adobe Creative Suite \\
+Miscellaneous & Driving Permit: Classes A and  B \\
+\end{tabulary}
+
+\section*{Referees}
+  \begin{enumerate}
+    \item Dr. Emmanuel Atuhairwe\\
+          Health Coordinator,\\
+          Millennium Villages Project, Ruhiira\\
+          Email: emmanuel.atuhairwe@millenniumpromise.org\\
+          +256755947687
+          
+    \item Denis Rukidi\\
+          Infrastructure Coordinator,\\
+          Millennium Villages Project, Ruhiira\\
+          denis.rukidi@millenniumpromise.org \\
+          +256752847788, +256706213611
+
+    \item Brian Kitaka \\
+    	  Senior Software Developer \\
+    	  Makerere University \\
+    	  bgkitaka@gmail.com
+  \end{enumerate}
+% Footer
+\medskip
+%\begin{center}
+%  \begin{small}
+%    Last updated: \today
+%  \end{small}
+%\end{center}
+
+\end{document}
